@@ -1,12 +1,25 @@
-/** {
-    box-sizing: border-box;
-}*/
+* {
+    margin: 0px;
+}
 
 .titulo {
-    width: 220px;
-    height: 60px;
-    border: 1px solid rgb(145, 47, 47);
-    margin: 5%;
+    width: 230px;
+    height: 30px;
+    border: 1px solid rgb(71, 71, 71);
+    margin: 0px auto 15px;
     padding: 20px 20px;
     box-shadow: 2px 2px 2px black;
+}
+
+ li {
+    width: 70px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: inline;
+    margin: 0px 10px 10px 10px;
+}
+p {
+    margin: 10px 10px;
 }
