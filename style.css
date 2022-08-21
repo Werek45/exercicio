@@ -5,6 +5,8 @@
 * {
     margin: 0px;
 }
+
+
 body {
     display: grid;
     height: 100vh;
@@ -16,7 +18,31 @@ body {
 }
 header {
     grid-area: header;
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.454);
+    display: flex;
+    
+
+}
+.titulo{
+    display: flex;
+    position: relative;
+    align-items: top;
+    
+} 
+ul {
+    display: flex;
+
+}
+
+li {
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+
+
 }
 
 main {
